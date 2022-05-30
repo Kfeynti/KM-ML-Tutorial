@@ -15,7 +15,7 @@ y_variable = data['mpg']
 x_variables = data.loc[:, data.columns != 'mpg']
 
 
-x_train, x_test, y_train, y_test = model_selection.train_test_split(x, y, test_size=test_size, random_state=seed)
+x_train, x_test, y_train, y_test = model_selection.train_test_split(x_variables, y_variable, test_size=0.2)
 regressor = LinearRegression()
 regressor = regressor.fit(x_train, y_train)
 
