@@ -1,0 +1,40 @@
+       age          workclass    education       marital-status  \
+0       39          State-gov    Bachelors        Never-married
+1       50   Self-emp-not-inc    Bachelors   Married-civ-spouse
+2       38            Private      HS-grad             Divorced
+3       53            Private         11th   Married-civ-spouse
+4       28            Private    Bachelors   Married-civ-spouse
+...    ...                ...          ...                  ...
+32556   27            Private   Assoc-acdm   Married-civ-spouse
+32557   40            Private      HS-grad   Married-civ-spouse
+32558   58            Private      HS-grad              Widowed
+32559   22            Private      HS-grad        Never-married
+32560   52       Self-emp-inc      HS-grad   Married-civ-spouse
+
+               occupation    relationship    race      sex  capital-gain  \
+0            Adm-clerical   Not-in-family   White     Male          2174
+1         Exec-managerial         Husband   White     Male             0
+2       Handlers-cleaners   Not-in-family   White     Male             0
+3       Handlers-cleaners         Husband   Black     Male             0
+4          Prof-specialty            Wife   Black   Female             0
+...                   ...             ...     ...      ...           ...
+32556        Tech-support            Wife   White   Female             0
+32557   Machine-op-inspct         Husband   White     Male             0
+32558        Adm-clerical       Unmarried   White   Female             0
+32559        Adm-clerical       Own-child   White     Male             0
+32560     Exec-managerial            Wife   White   Female         15024
+
+       capital-loss  hours-per-week  native-country  target
+0                 0              40   United-States   <=50K
+1                 0              13   United-States   <=50K
+2                 0              40   United-States   <=50K
+3                 0              40   United-States   <=50K
+4                 0              40            Cuba   <=50K
+...             ...             ...             ...     ...
+32556             0              38   United-States   <=50K
+32557             0              40   United-States    >50K
+32558             0              40   United-States   <=50K
+32559             0              20   United-States   <=50K
+32560             0              40   United-States    >50K
+
+[32561 rows x 13 columns]
